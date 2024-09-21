@@ -1,7 +1,7 @@
 :root {
-    --primary: rgb(0, 47, 134);
-    --primary-dark: rgb(0, 36, 104);
-    --primary-translucent: rgba(0, 47, 134, 0.651);
+    --primary: rgb(134, 0, 127);
+    --primary-dark: rgb(100, 0, 95);
+    --primary-translucent: rgba(134, 0, 127, 0.651);
     }
 
 html{
