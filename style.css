@@ -1,0 +1,113 @@
+:root {
+    --primary: rgb(0, 47, 134);
+    --primary-dark: rgb(0, 36, 104);
+    --primary-translucent: rgba(0, 47, 134, 0.651);
+    }
+
+html{
+    padding: 0;
+    background-color: rgba(101, 119, 0, 0.288);
+}
+
+body{
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: skyblue;
+    align-items: center;
+    padding: 1rem;
+}
+
+#logo{
+
+}
+
+#lsi-ekonek{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--primary);
+    padding: 0;
+    line-height: 2rem;
+}
+
+#ormin{
+    color: white;
+    font-size: small;
+    padding: 0 4px;
+    background-color:var(--primary-translucent);
+}
+
+.nav-links{
+    color: black;
+    margin: 0 8px ;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav-links:hover{
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.account-buttons{
+    font-family: "Poppins";
+    font-size: large;
+    border-width: 1px;
+    border-color: var(--primary);
+    background-color: transparent;
+    border-style:solid;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.account-buttons:hover{
+    color: white;
+    background-color: var(--primary);
+}
+
+#register-button{
+    color: white;
+    background-color: var(--primary);
+}
+
+#register-button:hover{
+    background-color: var(--primary-dark);
+}
+
+#main{
+    
+    text-align: center;
+    padding: 2rem;
+}
+
+#main #top{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#main #mid{
+    color: white;
+    font-size: 2rem;
+    font-weight: light;
+    background-color: var(--primary);
+}
+#main #content{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+#image-container{
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+}
+
+#image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
